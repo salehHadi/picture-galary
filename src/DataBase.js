@@ -59,7 +59,8 @@ function DataBasedProvider(props){
                 .then(res => res.json())
                 .then(data => setImgGisplayOnHomePage(e => [...e, ...data.results]))
             }
-    }, [0]) // eslint-disable-next-line
+    // eslint-disable-next-line
+    }, []) 
 
 
     function updateHomePageImgs(){
