@@ -66,6 +66,11 @@ h1,h2,h3,h4,p {
   height: 100%;
   justify-content: space-between;
 }
+.homePage__basket-btn {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
 .homePage__Img--container,
 .homePage__title{
   padding: 0 15px;
