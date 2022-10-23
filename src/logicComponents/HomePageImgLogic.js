@@ -11,7 +11,9 @@ function HomePageImgLogic(props){
         <img 
             onClick={()=>pictureInfo(id)}
             className="homePage__Img" 
-            id={id} src={cover_photo.urls.full}
+            id={id} 
+            src={cover_photo.urls.full}
+            alt="img"
         />
     </Link>
     )

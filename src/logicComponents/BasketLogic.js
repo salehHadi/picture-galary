@@ -22,7 +22,7 @@ function BasketLogic(props){
                 </i>
             </div>
             <div>
-                <Link to={'/PictureInfo'}><img onClick={()=> pictureInfo(id)} className="basketElement__img" src={cover_photo.urls.full} /> </Link>
+                <Link to={'/PictureInfo'}><img onClick={()=> pictureInfo(id)} className="basketElement__img" src={cover_photo.urls.full} alt="img" /> </Link>
             </div>
             <div>
             <Link className="basketElement__title" to={'/PictureInfo'}><h4 onClick={()=> pictureInfo(id)} className="basketElement__title">{title}</h4></Link>

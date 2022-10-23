@@ -15,7 +15,7 @@ function PictureInfo(){
             </div>
             
             <div className="picture__info--img-Div">
-                <img className="picture__info--img" src={pictureInformation.cover_photo.urls.small}/>
+                <img className="picture__info--img" src={pictureInformation.cover_photo.urls.small} alt="img"/>
             </div>
 
             <div className="picture__info--location-container">

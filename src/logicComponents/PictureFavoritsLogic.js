@@ -9,7 +9,7 @@ function PictureFavoritsLogic(props){
         <div className='pictureFavorits__element-container'>
             <Link to={'/PictureInfo'}>
             <div onClick={()=>pictureInfo(data.id)} className="pictureFavorits__element-div-img">
-                <img className="pictureFavorits__element-img" src={data.cover_photo.urls.full} />
+                <img className="pictureFavorits__element-img" src={data.cover_photo.urls.full} alt="img"/>
             </div>
             </Link>
             <div className="pictureFavorits__element-btns-container">
