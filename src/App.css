@@ -38,14 +38,16 @@ h1,h2,h3,h4,p {
 .Intro__BTN {
   background-color: #fff;
   color: black;
-  font-size: .8rem;
+  font-size: 1.1rem;
   text-decoration: none;
   border: none;
   border-radius: 20px;
   padding: 8px 15px;
   cursor: pointer;
   transition: 200ms;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -509,6 +511,15 @@ h1,h2,h3,h4,p {
 
 
 @media(min-width:650px) {
+
+  .intro__title{
+    padding: 10px;
+    font-size: 2rem;
+  }
+  .Intro__BTN {
+    font-size: 1.2rem;
+  }
+
   .homePage__basket-btn {
     font-size: 1.35rem;
     padding: 15px 20px;
@@ -622,6 +633,14 @@ h1,h2,h3,h4,p {
   }
 }
 @media(min-width:750px) {
+
+  .intro__title{
+    padding: 10px;
+    font-size: 2.5rem;
+  }
+  .Intro__BTN {
+    font-size: 1.5rem;
+  }
   .picture__info--img-Div,
   .picture__info--location-container {
     padding: 0 30px;
